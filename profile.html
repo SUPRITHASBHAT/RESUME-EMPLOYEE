@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <!-- Icons and My custom style-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="profile.css" rel="stylesheet" />
+</head>
+<!-- Sorry for the four space indent. Didn't find a way to change it quickly. -->
+
+<body id="page-top">
+    <!-- Main title -->
+    <div class="main-title">
+        <h1>UNISYS</h1>
+    </div>
+    <!-- Navigation from StartBootstrap-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none"></span>
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2 profile-image"
+                    alt="Profile" /></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav" id="profileItems">
+                <!-- points to the feedbackform at the end of the html. other anchors will be added dynamically from profile.js -->
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#feedbackSection">Give Feedback</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Page Content-->
+    <div class="container-fluid p-0">
+        <!-- section 1-about-->
+        <section class="resume-section" id="section0">
+            <div class="resume-section-content">
+                <h2 class="mb-0 full-name"></h2>
+                <div class="subheading mb-5">
+                    <span class="profile-position"></span>
+                    <br />
+                    <a class="black-color" id="profileEmail"></a>
+                </div>
+                <p class="lead mb-5" id="profileabout">
+                </p>
+                <div class="social-icons profile-socialMedia">
+                </div>
+            </div>
+            <div class="card">
+                <img alt="Profile" class="full-width profile-image" />
+                <h2 class="full-name"></h2>
+                <p class="title profile-position"></p>
+                <div class="profile-socialMedia"></div>
+                <p class="no-margin">
+                    <button>
+                        <a id="profileContact" href="mailto:supritha.bhat@unisys.com">Contact</a>
+                    </button>
+                </p>
+                <p>
+                    <button><a href="index.html">Back to profiles</a></button>
+                </p>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- section 2 - experience -->
+        <section class="resume-section" id="section1">
+            <div class="resume-section-content">
+                <h2 class="mb-5"></h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5 section1">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0" onclick="toggleDisplay(this)"></h3>
+                        <div class="subheading mb-3"></div>
+                        <p>
+
+                        </p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span class="text-primary"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- section 3 - projects and seminars-->
+        <section class="resume-section" id="section2">
+            <div class="resume-section-content">
+                <h2 class="mb-5"></h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5 section2">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0" onclick="toggleDisplay(this)"></h3>
+                        <p></p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span class="text-primary"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- section 4- skills-->
+        <section class="resume-section" id="section3">
+            <div class="resume-section-content">
+                <h2 class="mb-5"></h2>
+                <ul>
+                    <li class="section3">
+                        <p></p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- section 5 - technical activities-->
+        <section class="resume-section" id="section4">
+            <div class="resume-section-content">
+                <h2 class="mb-5"></h2>
+                <ul>
+                    <li class="section4">
+                        <p></p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- section 6 - additional activities-->
+        <section class="resume-section" id="section5">
+            <div class="resume-section-content">
+                <h2 class="mb-5"></h2>
+                <ul>
+                    <li class="section5">
+                        <p></p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- section 7 - feedback-->
+        <section class="resume-section" id="feedbackSection">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Feedback</h2>
+                <form name="feedbackForm" id="feedbackForm">
+                    <div>
+                        <label>Name: </label>
+                        <input type="text" id="nameFeedback" class="form-control" disabled />
+                    </div>
+                    <div>
+                        <label>Is he/she standing upto her role and expectation? &nbsp;</label>
+                        <input type="radio" id="yes" name="roleRadio" class="radio-yesNo" checked
+                            required /><label>Yes</label>&nbsp;
+                        <input type="radio" id="no" name="roleRadio" class="radio-yesNo" required /><label>No</label>
+                    </div>
+                    <div>
+                        <label>How is his/her's Vocal Skills</label>
+                        <select id="vocalSkills" class="form-control" required>
+                            <option id="option1">Very bad</option>
+                            <option id="option2">Bad</option>
+                            <option id="option3" selected>Average</option>
+                            <option id="option4">Good</option>
+                            <option id="option5">Very good</option>
+                        </select>
+                    </div>
+                    <div class="rating">
+                        <label>Rate his/hers's Technicall Skills</label><br />
+                        <div class="rate" id="rate">
+                            <input type="radio" id="star5" name="rate" value="5" required />
+                            <label for="star5" title="text">5 stars</label>
+                            <input type="radio" id="star4" name="rate" value="4" required />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" id="star3" name="rate" value="3" checked required />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" id="star2" name="rate" value="2" required />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" id="star1" name="rate" value="1" required />
+                            <label for="star1" title="text">1 star</label>
+                        </div>
+                        <div>
+                            <button type="submit" onclick="submitFeedback()">Submit</button>
+                        </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <script src="../../xlib/jquery/jquery-3.5.1.js"></script> //TODO: Point to the existing Jquery xlib
+    <script src="profile.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+{
+    "response": {
+        "Supritha": {
+            "name": "Supritha S Bhat",
+            "preferredName": "Supritha",
+            "role": "Engineer, Stealth Identity",
+            "emailId": "supritha.bhat@unisys.com",
+            "socialMedia": {
+                "github": "https://github.com/ANASHKU",
+                "instagram": "https://www.instagram.com/suprithasbhat/",
+                "linkedin": "https://www.linkedin.com/in/supritha-s-bhat/",
+                "facebook": "https://www.facebook.com/profile.php?id=100005946767479"
+            },
+            "sections": {
+                "about": "A challenging career that will enable me to exhibit my professional competency to the zenith and will enable me to expose my talent to the maximum, to reach the heights of success. To liven the life of others through technology.",
+                "experience": [
+                    {
+                        "position": "Engineer",
+                        "company": "Unisys",
+                        "projectDesc": "Project: EBIS. EBIS is an Australian Government project, Enterprise Biometric Identification Services for Biometric Identification of Individuals. It comes under Stealth Identity product. The Application enrolls individuals based on the Face, Fingerprint and Fusion metrics, identifies and verifies the individuals, mainly for Border security.",
+                        "period": "June 2020 - Present"
+                    },
+                    {
+                        "position": "Associate Engineer",
+                        "company": "Unisys",
+                        "projectDesc": "Project: MPS. MPS is a UK Metro-police System Application developed in Angular 5 and Node JS with MSSQL. The Application gets the latest crime statistics and advice, helps the Police to record the activities taken to tackle crime and communicate within the Department. In this application we have implemented the features of crimes codes, location tracking, Chat module, Instant Message logic, Task creation.",
+                        "period": "July 2018 - June 2020"
+                    }
+                ],
+                "projects": [
+                    {
+                        "position": "Graphics Editor using OpenGL in C",
+                        "projectDesc": "Technology/Tools: OpenGL in C",
+                        "period": "July 2017"
+                    },
+                    {
+                        "position": "Room Temperature Control and Fire Alarm/Suppression IOT Service Using MQTT",
+                        "projectDesc": "Technology/Tools: HTML, CSS, Javascript, Python, AWS",
+                        "period": "July 2018"
+                    },
+                    {
+                        "position": "ERICA: The ERATO Intelligent Conversational Android",
+                        "projectDesc": "IEEE paper: published in 2016, 25th IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN) by Dylan F. Glas, Takashi Minato, Carlos T. Ishi, Tatsuya Kawahara and Hiroshi Ishiguro",
+                        "period": "March 2018"
+                    }
+                ],
+                "skills": [
+                    {
+                        "projectDesc": "C, C++, C#, Java"
+                    },
+                    {
+                        "projectDesc": "HTML, CSS"
+                    },
+                    {
+                        "projectDesc": "PERL, PYTHON, RUBY"
+                    }
+                ],
+                "technical": [
+                    {
+                        "projectDesc": "Attended a 2 days workshop on CISCO NETWORKING by TeckKriti IIT Kanpur Azure Skynet"
+                    },
+                    {
+                        "projectDesc": "Participated in INSPIRE Internship Programme conducted by The Department of Science and Technology, New Delhi"
+                    },
+                    {
+                        "projectDesc": "Attended a 2 days workshop on PROGRAMMING IN PYTHON by SPECBIT"
+                    },
+                    {
+                        "projectDesc": "Attended a One Day Workshop on LEARN TO CODE conducted by AMPHISOFT TECHNOLOGIES"
+                    },
+                    {
+                        "projectDesc": "Participated in CodeVita 2018 conducted by TCS"
+                    }
+                ],
+                "additional": [
+                    {
+                        "projectDesc": "College career center coordinator for the Computer Science department of JSSATE for more than 2 years"
+                    },
+                    {
+                        "projectDesc": "Member and Organizer of a Technical Quiz for CSI Region-5 Student Convention"
+                    },
+                    {
+                        "projectDesc": "Volunteered for the Unisys CSR council"
+                    }
+                ]
+            }
+        },
+        "Tom": {
+            "name": "Tom Hiddleston",
+            "preferredName": "Tom",
+            "role": "Anthropologist",
+            "emailId": "supritha.bhat@unisys.com",
+            "socialMedia": {
+                "instagram": "https://www.instagram.com/twhiddleston/",
+                "facebook": "https://www.facebook.com/twhiddleston/"
+            },
+            "sections": {
+                "about": "",
+                "experience": [
+                    {
+                        "position": "Varied roles",
+                        "projectDesc": " replaced Benedict Cumberbatch in the gothic horror film Crimson Peak, directed by Guillermo del Toro. The film started filming in Toronto in February 2014, and was released in October 2015. starred as Robert Laing in High-Rise (2015), based on J. G. Ballard's novel of the same name and directed by Ben Wheatley.",
+                        "period": "2015 - Present"
+                    },
+                    {
+                        "position": "Career breakthrough",
+                        "projectDesc": "portrayal of Loki in the 2011 Marvel Studios film Thor.",
+                        "period": "2011 - 2014"
+                    },
+                    {
+                        "position": "Early Work",
+                        "projectDesc": "While still doing student plays, began appearing on television, landing parts in Stephen Whittaker's adaptation of Nicholas Nickleby (2001) for ITV,[15] the BBC/HBO co-production Conspiracy (2001), and as Randolph Churchill, the son of Winston Churchill, in the BBC/HBO drama The Gathering Storm (2002).",
+                        "period": "2001 - 2010"
+                    }
+                ],
+                "films": [
+                    {
+                        "position": "Latest films",
+                        "projectDesc": [
+                            "Leading Lady Parts",
+                            "2018 Avengers: Infinity War Loki",
+                            "2019 Avengers: Endgame"
+                        ]
+                    },
+                    {
+                        "position": "Latest Television",
+                        "projectDesc": [
+                            "Trollhunters",
+                            "Loki",
+                            "What If...?"
+                        ]
+                    },
+                    {
+                        "position": "Latest Theatre",
+                        "projectDesc": [
+                            "Coriolanus",
+                            "Hamlet",
+                            "Betrayal"
+                        ]
+                    }
+                ],
+                "skills": [
+                    {
+                        "projectDesc": "Acting"
+                    },
+                    {
+                        "projectDesc": "Teaching"
+                    },
+                    {
+                        "projectDesc": "Dancing"
+                    }
+                ],
+                "awards": [
+                    {
+                        "projectDesc": "BroadwayWorld UK Awards - Best Actor in a New Production of a Play"
+                    },
+                    {
+                        "projectDesc": "Empire Hero Award"
+                    },
+                    {
+                        "projectDesc": "Golden Globe Award for Best Actor – Miniseries or Television Film"
+                    },
+                    {
+                        "projectDesc": "TV Choice Award for Best Actor"
+                    }
+                ]
+            }
+        }
+    }
+}

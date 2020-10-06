@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width" />
+    <title>Assignment-Day6(09August)</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+<!-- Sorry for the four space indent. Didn't find a way to change it quickly. -->
+
+<body>
+    <!-- Main Title -->
+    <div class="main-title">
+        <h1>MY COMPANY</h1>
+    </div>
+    <div class="container">
+        <br /><br />
+        <h2>Employee Profile</h2>
+        <div id="contentMain">
+            <!-- Profile 1 -->
+            <a href="profile.html" class="jumbotron row" id="profile1" onclick="getProfileName('Supritha')">
+                <div class="col-md-4">
+                    <img src="Supritha.JPG" alt="Supritha" class="profile-image" />
+                </div>
+                <div class="col-md-6">
+                    <h3>Name: SUPRITHA</h3>
+                    <h4>Position: Engineer</h4>
+                    <h4>Employed for: 2years+</h4>
+                    <h4>Skills: HTML, CSS, Javascript</h4>
+                    <h4>Experience: 2years +</h4>
+                    <h4>Rating:</h4>
+                    <div class="rate" id="rateProfile1">
+                        <input type="radio" id="starSu5" name="rateProfile1" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="starSu4" name="rateProfile1" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="starSu3" name="rateProfile1" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="starSu2" name="rateProfile1" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="starSu1" name="rateProfile1" value="1" />
+                        <label for="star1" title="text">1 star</label>
+                    </div>
+                </div>
+            </a>
+            <!-- Profile 2 -->
+            <a href="profile.html" class="jumbotron row" id="profile2" onclick="getProfileName('Tom')">
+                <div class="col-md-4">
+                    <img src="Tom.JPG" alt="Supritha" class="profile-image" />
+                </div>
+                <div class="col-md-6">
+                    <h3>Name: TOM HIDDLESTON</h3>
+                    <h4>Position: Anthropologist</h4>
+                    <h4>Employed for: 2years+</h4>
+                    <h4>Skills: Acting, Teaching, Dancing</h4>
+                    <h4>Experience: 20years +</h4>
+                    <h4>Rating:</h4>
+                    <div class="rate" id="rateProfile2">
+                        <input type="radio" id="starTom5" name="rateProfile2" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="starTom4" name="rateProfile2" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="starTom3" name="rateProfile2" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="starTom2" name="rateProfile2" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="starTom1" name="rateProfile2" value="1" />
+                        <label for="star1" title="text">1 star</label>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <!-- <script>                                                     Day 5 training on document selectors
+        //using javacript
+        var getH2s = document.getElementsByTagName("h2");
+        var pageTitle = getH2s[0];
+        pageTitle.style.color = "Red";
+        var getH4s = document.getElementsByTagName("h4");
+        for (var i = 0; i < getH4s.length; i++) {
+            console.log("el: ", getH4s[i], getH4s[i].innerHTML);
+            getH4s[i].style.color = "darkblue";
+        }
+    </script> -->
+    <script src="../../xlib/jquery/jquery-3.5.1.js"></script>
+    //TODO: Point to the existing Jquery xlib
+    <!-- <script>                                                    Day 5 training on document selectors
+        //using jquery
+        var $getH2s = $("h2");
+        var $pageTitle = $getH2s[0];
+        console.log("hs2: ", $getH2s, $pageTitle);
+        console.log($(".col-md-6").find("h4").css("color", "black")); //faster
+        console.log($(".col-md-6 h4").css("color", "red")); //or
+    </script> -->
+</body>
+
+</html>
